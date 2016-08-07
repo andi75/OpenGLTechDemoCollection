@@ -10,8 +10,8 @@
 		E11CB87B1D54A71100A51281 /* Reflections.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11CB87A1D54A71100A51281 /* Reflections.swift */; };
 		E11CB87D1D54A73100A51281 /* TechDemoProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11CB87C1D54A73100A51281 /* TechDemoProtocol.swift */; };
 		E11CB87F1D54AD0B00A51281 /* OGL4Cube.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11CB87E1D54AD0B00A51281 /* OGL4Cube.swift */; };
-		E11CB8811D54DB4600A51281 /* geometry.vs in Resources */ = {isa = PBXBuildFile; fileRef = E11CB8801D54DB4600A51281 /* geometry.vs */; };
-		E11CB8831D54DB5200A51281 /* color.fs in Resources */ = {isa = PBXBuildFile; fileRef = E11CB8821D54DB5200A51281 /* color.fs */; };
+		E11CB8811D54DB4600A51281 /* OGL4Cube.vs in Resources */ = {isa = PBXBuildFile; fileRef = E11CB8801D54DB4600A51281 /* OGL4Cube.vs */; };
+		E11CB8831D54DB5200A51281 /* OGL4Cube.fs in Resources */ = {isa = PBXBuildFile; fileRef = E11CB8821D54DB5200A51281 /* OGL4Cube.fs */; };
 		E16670D01D54A05B00B74484 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16670CF1D54A05B00B74484 /* AppDelegate.swift */; };
 		E16670D21D54A05B00B74484 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16670D11D54A05B00B74484 /* ViewController.swift */; };
 		E16670D41D54A05B00B74484 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E16670D31D54A05B00B74484 /* Assets.xcassets */; };
@@ -24,8 +24,8 @@
 		E11CB87A1D54A71100A51281 /* Reflections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reflections.swift; sourceTree = "<group>"; };
 		E11CB87C1D54A73100A51281 /* TechDemoProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TechDemoProtocol.swift; sourceTree = "<group>"; };
 		E11CB87E1D54AD0B00A51281 /* OGL4Cube.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OGL4Cube.swift; sourceTree = "<group>"; };
-		E11CB8801D54DB4600A51281 /* geometry.vs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = geometry.vs; sourceTree = "<group>"; };
-		E11CB8821D54DB5200A51281 /* color.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = color.fs; sourceTree = "<group>"; };
+		E11CB8801D54DB4600A51281 /* OGL4Cube.vs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = OGL4Cube.vs; sourceTree = "<group>"; };
+		E11CB8821D54DB5200A51281 /* OGL4Cube.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = OGL4Cube.fs; sourceTree = "<group>"; };
 		E16670CC1D54A05B00B74484 /* OpenGLTechDemoCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGLTechDemoCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E16670CF1D54A05B00B74484 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E16670D11D54A05B00B74484 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,8 +76,8 @@
 				E11CB87C1D54A73100A51281 /* TechDemoProtocol.swift */,
 				E11CB87A1D54A71100A51281 /* Reflections.swift */,
 				E11CB87E1D54AD0B00A51281 /* OGL4Cube.swift */,
-				E11CB8801D54DB4600A51281 /* geometry.vs */,
-				E11CB8821D54DB5200A51281 /* color.fs */,
+				E11CB8801D54DB4600A51281 /* OGL4Cube.vs */,
+				E11CB8821D54DB5200A51281 /* OGL4Cube.fs */,
 			);
 			path = OpenGLTechDemoCollection;
 			sourceTree = "<group>";
@@ -142,8 +142,8 @@
 			files = (
 				E16670D41D54A05B00B74484 /* Assets.xcassets in Resources */,
 				E16670D71D54A05B00B74484 /* Main.storyboard in Resources */,
-				E11CB8831D54DB5200A51281 /* color.fs in Resources */,
-				E11CB8811D54DB4600A51281 /* geometry.vs in Resources */,
+				E11CB8831D54DB5200A51281 /* OGL4Cube.fs in Resources */,
+				E11CB8811D54DB4600A51281 /* OGL4Cube.vs in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

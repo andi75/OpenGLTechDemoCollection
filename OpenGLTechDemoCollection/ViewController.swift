@@ -9,6 +9,9 @@
 import Cocoa
 
 class ViewController: NSViewController {
+    override var acceptsFirstResponder: Bool {
+        return true
+    }
     
     @IBOutlet weak var techDemoView: TechDemoView!
     
@@ -29,6 +32,17 @@ class ViewController: NSViewController {
         }
     }
 
+    @IBAction func mirroredCubeSelected(sender: NSMenuItem) {
+        self.techDemoView?.techDemo = Reflections()
+        self.techDemoView?.createContext()
+        self.techDemoView?.needsDisplay = true
+    }
+    
+    @IBAction func openGL4CubeSelected(sender: NSMenuItem) {
+        self.techDemoView?.techDemo = OGL4Cube()
+        self.techDemoView?.createContext()
+        self.techDemoView?.needsDisplay = true
+    }
 
 }
 

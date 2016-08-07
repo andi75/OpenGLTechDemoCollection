@@ -118,8 +118,8 @@ class OGL4Cube : TechDemoProtocol
     }
     
     func initShaders() {
-        let vertexShader: GLuint = self.compileShader("geometry.vs", type: GLenum(GL_VERTEX_SHADER))
-        let fragmentShader: GLuint = self.compileShader("color.fs", type: GLenum(GL_FRAGMENT_SHADER))
+        let vertexShader: GLuint = self.compileShader("OGL4Cube.vs", type: GLenum(GL_VERTEX_SHADER))
+        let fragmentShader: GLuint = self.compileShader("OGL4Cube.fs", type: GLenum(GL_FRAGMENT_SHADER))
         
         glut.checkError("before initShaders()")
         

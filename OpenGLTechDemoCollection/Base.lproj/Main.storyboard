@@ -59,8 +59,15 @@
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="Effects" id="bUQ-Hj-elg">
                                     <items>
-                                        <menuItem title="Mirrored Cube" id="fLK-Nz-5lP">
-                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                        <menuItem title="Mirrored Cube" keyEquivalent="1" id="fLK-Nz-5lP">
+                                            <connections>
+                                                <action selector="mirroredCubeSelected:" target="Ady-hI-5gd" id="fLy-lw-Aj7"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="OpenGL4 Cube" keyEquivalent="2" id="yz4-1s-ulv" userLabel="OpenGL4 Cube">
+                                            <connections>
+                                                <action selector="openGL4CubeSelected:" target="Ady-hI-5gd" id="FH7-vO-hsB"/>
+                                            </connections>
                                         </menuItem>
                                     </items>
                                 </menu>
