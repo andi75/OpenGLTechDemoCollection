@@ -9,10 +9,17 @@
 import Cocoa
 
 class ViewController: NSViewController {
-
+    
+    @IBOutlet weak var techDemoView: TechDemoView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.techDemoView?.techDemo =
+            // Reflections()
+            OGL4Cube()
 
+        self.techDemoView?.createContext()
         // Do any additional setup after loading the view.
     }
 

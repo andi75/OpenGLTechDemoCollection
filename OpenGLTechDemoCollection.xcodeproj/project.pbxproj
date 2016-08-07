@@ -7,19 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E11CB87B1D54A71100A51281 /* Reflections.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11CB87A1D54A71100A51281 /* Reflections.swift */; };
+		E11CB87D1D54A73100A51281 /* TechDemoProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11CB87C1D54A73100A51281 /* TechDemoProtocol.swift */; };
+		E11CB87F1D54AD0B00A51281 /* OGL4Cube.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11CB87E1D54AD0B00A51281 /* OGL4Cube.swift */; };
+		E11CB8811D54DB4600A51281 /* geometry.vs in Resources */ = {isa = PBXBuildFile; fileRef = E11CB8801D54DB4600A51281 /* geometry.vs */; };
+		E11CB8831D54DB5200A51281 /* color.fs in Resources */ = {isa = PBXBuildFile; fileRef = E11CB8821D54DB5200A51281 /* color.fs */; };
 		E16670D01D54A05B00B74484 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16670CF1D54A05B00B74484 /* AppDelegate.swift */; };
 		E16670D21D54A05B00B74484 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16670D11D54A05B00B74484 /* ViewController.swift */; };
 		E16670D41D54A05B00B74484 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E16670D31D54A05B00B74484 /* Assets.xcassets */; };
 		E16670D71D54A05B00B74484 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16670D51D54A05B00B74484 /* Main.storyboard */; };
+		E16670DF1D54A0A300B74484 /* OpenGLUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16670DE1D54A0A300B74484 /* OpenGLUtilities.swift */; };
+		E16670E11D54A0D100B74484 /* TechDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16670E01D54A0D100B74484 /* TechDemoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E11CB87A1D54A71100A51281 /* Reflections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reflections.swift; sourceTree = "<group>"; };
+		E11CB87C1D54A73100A51281 /* TechDemoProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TechDemoProtocol.swift; sourceTree = "<group>"; };
+		E11CB87E1D54AD0B00A51281 /* OGL4Cube.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OGL4Cube.swift; sourceTree = "<group>"; };
+		E11CB8801D54DB4600A51281 /* geometry.vs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = geometry.vs; sourceTree = "<group>"; };
+		E11CB8821D54DB5200A51281 /* color.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = color.fs; sourceTree = "<group>"; };
 		E16670CC1D54A05B00B74484 /* OpenGLTechDemoCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGLTechDemoCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E16670CF1D54A05B00B74484 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E16670D11D54A05B00B74484 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E16670D31D54A05B00B74484 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E16670D61D54A05B00B74484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E16670D81D54A05B00B74484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E16670DE1D54A0A300B74484 /* OpenGLUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenGLUtilities.swift; sourceTree = "<group>"; };
+		E16670E01D54A0D100B74484 /* TechDemoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TechDemoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +71,13 @@
 				E16670D31D54A05B00B74484 /* Assets.xcassets */,
 				E16670D51D54A05B00B74484 /* Main.storyboard */,
 				E16670D81D54A05B00B74484 /* Info.plist */,
+				E16670DE1D54A0A300B74484 /* OpenGLUtilities.swift */,
+				E16670E01D54A0D100B74484 /* TechDemoView.swift */,
+				E11CB87C1D54A73100A51281 /* TechDemoProtocol.swift */,
+				E11CB87A1D54A71100A51281 /* Reflections.swift */,
+				E11CB87E1D54AD0B00A51281 /* OGL4Cube.swift */,
+				E11CB8801D54DB4600A51281 /* geometry.vs */,
+				E11CB8821D54DB5200A51281 /* color.fs */,
 			);
 			path = OpenGLTechDemoCollection;
 			sourceTree = "<group>";
@@ -121,6 +142,8 @@
 			files = (
 				E16670D41D54A05B00B74484 /* Assets.xcassets in Resources */,
 				E16670D71D54A05B00B74484 /* Main.storyboard in Resources */,
+				E11CB8831D54DB5200A51281 /* color.fs in Resources */,
+				E11CB8811D54DB4600A51281 /* geometry.vs in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +155,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E16670D21D54A05B00B74484 /* ViewController.swift in Sources */,
+				E11CB87F1D54AD0B00A51281 /* OGL4Cube.swift in Sources */,
+				E16670E11D54A0D100B74484 /* TechDemoView.swift in Sources */,
+				E11CB87D1D54A73100A51281 /* TechDemoProtocol.swift in Sources */,
+				E11CB87B1D54A71100A51281 /* Reflections.swift in Sources */,
+				E16670DF1D54A0A300B74484 /* OpenGLUtilities.swift in Sources */,
 				E16670D01D54A05B00B74484 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +303,7 @@
 				E16670DD1D54A05B00B74484 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
